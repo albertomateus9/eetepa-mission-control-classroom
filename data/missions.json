@@ -1,37 +1,41 @@
 {
   "code": "L-01",
-  "title": "EETEPA Mission Control Classroom",
-  "notice": "Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.",
+  "title": "Central de Missões EETEPA",
+  "notice": "Projeto educacional inspirado na EETEPA Vilhena Alves. Não é sistema oficial institucional e não usa dados reais de estudantes.",
+  "dataPolicy": "Sem login, sem servidor, sem APIs externas e com dados salvos apenas no localStorage do navegador.",
   "missions": [
     {
-      "id": "briefing",
-      "title": "Open The Briefing",
+      "id": "abertura",
+      "title": "Apresentar o Caso",
       "duration": 5,
       "points": 10,
-      "story": "The class receives a technical incident and must organize teams before the first action.",
-      "challenge": "Create a team name, choose a role, and explain the first decision in one sentence.",
-      "hint": "Good teams define who reads, who tests, who writes, and who presents.",
-      "deliverable": "Team role card and first decision."
+      "story": "A turma recebe um incidente técnico fictício e precisa organizar as equipes antes da primeira ação.",
+      "challenge": "Criar um nome de equipe, escolher papéis e explicar a primeira decisão em uma frase.",
+      "hint": "Boas equipes definem quem lê, quem testa, quem registra e quem apresenta.",
+      "deliverable": "Cartão de papéis da equipe e primeira decisão registrada.",
+      "criterion": "Pontue quando a equipe demonstrar organização e clareza de papéis."
     },
     {
-      "id": "dispatch",
-      "title": "Dispatch The Mission",
+      "id": "missao",
+      "title": "Despachar a Missão",
       "duration": 8,
       "points": 15,
-      "story": "Mission control unlocks the main challenge and reveals constraints.",
-      "challenge": "Pick one mission card, identify the risk, and choose a safe action.",
-      "hint": "Read constraints before solving. Speed without interpretation costs points.",
-      "deliverable": "Risk and action note."
+      "story": "A central libera o desafio principal e apresenta as restrições da rodada.",
+      "challenge": "Escolher uma carta de missão, identificar o risco e definir uma ação segura.",
+      "hint": "Leia as restrições antes de resolver. Velocidade sem interpretação custa pontos.",
+      "deliverable": "Nota curta com risco identificado e ação escolhida.",
+      "criterion": "Pontue evidência técnica, justificativa e colaboração."
     },
     {
-      "id": "debrief",
-      "title": "Debrief And Score",
+      "id": "sintese",
+      "title": "Fechar e Pontuar",
       "duration": 7,
       "points": 20,
-      "story": "Teams compare evidence and convert technical choices into learning evidence.",
-      "challenge": "Present what worked, what failed, and what should be improved.",
-      "hint": "Use evidence, not only opinion.",
-      "deliverable": "Final learning report."
+      "story": "As equipes comparam evidências e transformam escolhas técnicas em aprendizagem.",
+      "challenge": "Apresentar o que funcionou, o que falhou e o que deve melhorar.",
+      "hint": "Use evidência, não apenas opinião.",
+      "deliverable": "Relatório final de aprendizagem da equipe.",
+      "criterion": "Pontue síntese clara e proposta de melhoria aplicável."
     }
   ]
 }
