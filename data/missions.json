@@ -1,0 +1,37 @@
+{
+  "code": "L-01",
+  "title": "EETEPA Mission Control Classroom",
+  "notice": "Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.",
+  "missions": [
+    {
+      "id": "briefing",
+      "title": "Open The Briefing",
+      "duration": 5,
+      "points": 10,
+      "story": "The class receives a technical incident and must organize teams before the first action.",
+      "challenge": "Create a team name, choose a role, and explain the first decision in one sentence.",
+      "hint": "Good teams define who reads, who tests, who writes, and who presents.",
+      "deliverable": "Team role card and first decision."
+    },
+    {
+      "id": "dispatch",
+      "title": "Dispatch The Mission",
+      "duration": 8,
+      "points": 15,
+      "story": "Mission control unlocks the main challenge and reveals constraints.",
+      "challenge": "Pick one mission card, identify the risk, and choose a safe action.",
+      "hint": "Read constraints before solving. Speed without interpretation costs points.",
+      "deliverable": "Risk and action note."
+    },
+    {
+      "id": "debrief",
+      "title": "Debrief And Score",
+      "duration": 7,
+      "points": 20,
+      "story": "Teams compare evidence and convert technical choices into learning evidence.",
+      "challenge": "Present what worked, what failed, and what should be improved.",
+      "hint": "Use evidence, not only opinion.",
+      "deliverable": "Final learning report."
+    }
+  ]
+}
