@@ -1,6 +1,15 @@
 {
   "code": "L-01",
   "title": "Central de Missões EETEPA",
+  "fantasy": "Sala de comando do professor com rádio de eventos, mesa tática e ocorrências rápidas.",
+  "playerVerb": "despachar ocorrências",
+  "mechanic": {
+    "title": "Mecânica da rodada",
+    "prompt": "Sorteie uma ocorrência, atribua papéis e peça uma decisão técnica em até uma frase.",
+    "reward": "Despacho validado"
+  },
+  "teacherPrompt": "Cada equipe assume um papel de operação e entrega uma decisão curta para o professor validar no mapa.",
+  "rewardLabel": "Despachos validados",
   "notice": "Projeto educacional inspirado na EETEPA Vilhena Alves. Não é sistema oficial institucional e não usa dados reais de estudantes.",
   "dataPolicy": "Sem login, sem servidor, sem APIs externas e com dados salvos apenas no localStorage do navegador.",
   "missions": [

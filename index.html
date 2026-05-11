@@ -7,13 +7,14 @@
   <meta name="description" content="Painel de aula lúdica para abrir missões, cadastrar equipes fictícias, controlar tempo, pontuar evidências e exportar relatórios.">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="game game-control layout-command">
   <header class="app-header">
     <div class="brand">
       <span class="brand-mark">L-01</span>
       <div>
         <h1>Central de Missões EETEPA</h1>
         <p>Painel do professor para transformar conteúdo técnico em missões de sala.</p>
+        <p class="fantasy-line">Sala de comando do professor com rádio de eventos, mesa tática e ocorrências rápidas.</p>
       </div>
     </div>
     <nav aria-label="Atalhos do professor">
@@ -27,15 +28,24 @@
     <section class="stage" id="missao">
       <div class="stage-toolbar">
         <div>
-          <span class="status-pill">Missão conduzida pelo professor</span>
+          <span class="status-pill">Sala de comando ativa</span>
           <h2 id="phaseTitle">Carregando missão</h2>
+          <p class="verb-line">Ação da turma: <strong>despachar ocorrências</strong></p>
         </div>
         <div class="timer" aria-live="polite">
           <span id="timerValue">00:00</span>
           <small id="timerLabel">pronto</small>
         </div>
       </div>
-      <canvas id="gameCanvas" width="960" height="540" aria-label="Mapa visual da missão"></canvas>
+      <div class="arena-frame">
+        <canvas id="gameCanvas" width="960" height="540" aria-label="Mapa visual da missão"></canvas>
+        <div class="hud-strip" aria-label="HUD da missão">
+          <span>Ocorrência em aberto</span>
+          <span>Rádio de sala</span>
+          <span>Despachos validados</span>
+        </div>
+        <div id="phaseRail" class="phase-rail"></div>
+      </div>
       <div class="mission-card">
         <p id="phaseStory"></p>
         <h3>Desafio</h3>
@@ -46,6 +56,11 @@
         </details>
         <p class="deliverable"><strong>Evidência esperada:</strong> <span id="phaseDeliverable"></span></p>
         <p class="criterion"><strong>Critério de pontuação:</strong> <span id="phaseCriterion"></span></p>
+      </div>
+      <div class="mechanic-panel">
+        <strong>Mecânica da rodada</strong>
+        <p>Sorteie uma ocorrência, atribua papéis e peça uma decisão técnica em até uma frase.</p>
+        <span>Despacho validado</span>
       </div>
       <div class="controls">
         <button id="prevPhase" type="button">Fase anterior</button>

@@ -12,7 +12,15 @@ Painel de aula lúdica para abrir missões, cadastrar equipes fictícias, contro
 **Tempo sugerido:** 25 a 35 minutos  
 **Demonstração pública:** https://albertomateus9.github.io/eetepa-mission-control-classroom/
 
-Este projeto transforma uma aula técnica em uma missão guiada. O professor cria equipes fictícias, inicia o cronômetro, revela fases, pontua evidências e exporta relatório da aula.
+Este projeto transforma uma aula técnica em uma experiência de jogo educacional. A fantasia central é: Sala de comando do professor com rádio de eventos, mesa tática e ocorrências rápidas.
+
+## Como Conduzir A Dinâmica
+
+- **Verbo de jogo:** despachar ocorrências.
+- **Mecânica:** Sorteie uma ocorrência, atribua papéis e peça uma decisão técnica em até uma frase.
+- **Papel da equipe:** Cada equipe assume um papel de operação e entrega uma decisão curta para o professor validar no mapa.
+- **Recompensa da rodada:** Despacho validado.
+- **Registro final:** exporte o relatório para guardar pontuação, evidências e próximos passos.
 
 ## Roteiro Do Professor
 
